@@ -1,0 +1,75 @@
+.root{
+
+   
+    display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+   margin: 5%; 
+}
+
+.btn{
+
+   display:flex;
+   flex-direction: column;
+   margin: 2%;
+   background-color: #f8c74a;
+   width: 40%;
+   border-color: black;
+ 
+
+}
+
+.pdff{
+   width: 30px;
+}
+
+.pdfdescarga{
+
+   margin: 2%;
+   text-align: center;
+
+}
+
+.cont-indi{
+
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+   margin: 2%;
+   width: 100%;
+
+}
+
+.card-title{
+
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+   margin: 2%;
+}
+
+.card{
+
+   width: 90%;
+   margin: 2%;
+   border-color: darkslategray;
+   
+}
+
+.Titulo{
+
+   padding: 2%;
+}
+
+.card-body{
+
+
+   display:flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+ 
+}

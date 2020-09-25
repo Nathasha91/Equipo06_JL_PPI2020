@@ -1,0 +1,25 @@
+.container{
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+    align-self: center;
+    height: 100%;
+}
+
+.Boton1{
+    width: 50%;
+}
+.Boton2{
+    width: 50%;
+    
+}
+
+.btnform {
+    display: inline-block;
+    padding-right: 1%;
+}
+
+.btnform1 {
+    display: inline-block;
+    padding-left: 1%;
+}

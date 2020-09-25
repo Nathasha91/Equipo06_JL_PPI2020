@@ -1,0 +1,109 @@
+.root{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin: 5%;
+}
+
+.container-titulo{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    text-align: center;
+}
+.container1{
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3%; 
+    
+
+}
+
+.subcontainer{
+
+    text-align: center;
+
+}
+
+.parrafo{
+
+    text-align: justify;
+}
+
+.image{
+
+    width: 500px;
+    padding: 2%;
+}
+
+.subcontainer2{
+
+    display:flex;
+    justify-content: center;
+ 
+   
+}
+
+.sontainer2{
+
+    margin: 10%;;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+.pdfdescarga{
+
+    margin: 2%;
+    text-align: center;
+
+    
+
+}
+
+.cupos{
+    display:flex;
+    margin: 5%;
+    width: 100%;
+    text-align: center;
+    margin-right: 3%;
+}
+
+.col-4 a{
+
+    width:100%;
+}
+
+.col-6{
+
+    width:100%;
+}
+
+.imagen2{
+
+    width: 85px;
+}
+
+.button{
+
+    width:100%;
+    padding: 2%;
+
+}
+
+.container3{
+    display:felx;
+    flex-direction: row;
+}
+
+.pdff{
+    width: 45px;
+}
