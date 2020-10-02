@@ -42,10 +42,10 @@ export function notas() {
     return '/notas'
 }
 
-export function listaNotas() {
-    return '/listaNotas'
-}
-
 export function observaciones() {
     return '/observaciones'
+}
+
+export function foro() {
+    return '/foro'
 }

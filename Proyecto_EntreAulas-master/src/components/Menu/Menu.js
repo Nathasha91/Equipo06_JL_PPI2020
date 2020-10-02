@@ -38,6 +38,9 @@ const Menu = () => {
       <li className="nav-item">
         <a className="nav-link btn text-light" href="/circulares">Circulares</a>
       </li>
+      <li className="nav-item">
+        <a className="nav-link btn text-light" href="/foro">Foro</a>
+      </li>
     </ul>
     <span class="navbar-text">
       <a class="navbar-brand" href="#">

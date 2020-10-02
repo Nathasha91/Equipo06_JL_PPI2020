@@ -17,8 +17,8 @@ import {
   horarioProfesores,
   javieraHoy,
   notas,
-  listaNotas,
-  observaciones
+  observaciones,
+  foro
 } from './config/routes'
 import InicioSesion from './pages/InicioSesion/InicioSesion'
 import Matriculas from './pages/Matrículas/Matrículas'
@@ -31,8 +31,9 @@ import Horario from './pages/Horario/Horario'
 import HorarioP from './pages/Horario/HorarioP'
 import JavieraHoy from './pages/JavieraHoy/JavieraHoy'
 import Notas from './pages/Notas/Notas'
-import ListaNotas from './pages/Notas/ListaNotas'
 import Observaciones from './pages/Observaciones/Observaciones'
+import Foro from './pages/Foro/Foro'
+
 
 
 import Navbar from './components/Menu/Navbar';
@@ -107,13 +108,13 @@ function App() {
         </Route>
 
         <Route 
-         path={listaNotas()} exact>
-           <ListaNotas />
+         path={observaciones()} exact>
+           <Observaciones />
         </Route>
 
         <Route 
-         path={observaciones()} exact>
-           <Observaciones />
+         path={foro()} exact>
+           <Foro />
         </Route>
 
       </Switch>

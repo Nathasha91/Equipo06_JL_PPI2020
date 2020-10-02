@@ -25,7 +25,7 @@ const Foro = () => {
       </h2>
     </div>
 
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
       <div class="card-body">
        Mucho gusto, cordial saludo. Dentro de la Institución Educativa Javiera Londoño, una Instituciòn de calidad, tenemos diferentes formas en las que puedes resolver sus problemas, entre ellas algunas muy accesibles para los diferentes estudiantes y acudientes.
       </div>
@@ -35,7 +35,7 @@ const Foro = () => {
     <div class="card-header" id="headingTwo">
       <h2 class="mb-0">
         <button class="btn btn-link btn-block text-left collapsed text-warning" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          ¿cuáles son sus horarios de atención?
+          ¿Cuáles son sus horarios de atención?
         </button>
       </h2>
     </div>
@@ -75,7 +75,28 @@ const Foro = () => {
   </div>
 </div>
 </div>
-<button type="button" class="btn btn-warning m-5 text-light btn-center">¡Anímate a preguntar!</button>
+
+<button type="button" class="btn btn-warning text-light" data-toggle="modal" data-target="#staticBackdropForo">¡Animate a preguntar!</button>
+
+<div class="modal fade" id="staticBackdropForo" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-warning" id="staticBackdropLabel">Deja aquí tu pregunta</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <textarea class="form-control" placeholder="Sin miedo que no mordemos..." id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-warning text-light" data-dismiss="modal">Publicar</button>
+      </div>
+    </div>
+  </div>
+</div>
 
       </div>
    )
