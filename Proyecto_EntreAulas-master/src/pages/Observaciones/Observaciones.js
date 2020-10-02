@@ -3,20 +3,20 @@ import observaciones from './Observaciones.css'
 
 const Observaciones = () => {
     return (
-        <div className="root">
+        <div className="root rootO">
 
-            <div className="titulo"><h1>Observaciones</h1></div>
+            <div className="titulo text-warning tituloO"><h1>Observaciones</h1></div>
 
             <div className="card text-center">
-                <div className="card-header">
+                <div className="text-light card-header card-headerO">
                     Docente: Jorge Amaya Baena
                 </div>
                 <div className="card-body">
-                    <h4 className="card-title">Matemáticas</h4>
+                    <h4 className="card-title text-warning">Matemáticas</h4>
                     <p className="card-text">El estudiante no presta atención en clase y tampoco permite que los otros compañeros se concentren.</p>
-                    <a href="Notas.js" className="btn ">Volver a notas</a>
+                    <a href="/calificaciones" className="btn text-light btnO">Volver a mis notas</a>
                 </div>
-                <div className="card-footer ">
+                <div className="text-light card-footer card-footerO">
                     Hace dos días...
                 </div>
             </div>

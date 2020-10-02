@@ -5,34 +5,34 @@ import Pdf from '../../components/imagenes/pdf.png'
 const Notas = () => {
 
   return (
-      <div className="root">
+      <div className="root rooot">
 
-        <div className="Titulo">
-          <h1> Seguimiento Primer Periodo </h1>
+        <div className="Titulo TituloM">
+          <h1 className="text-warning text-center "> Seguimiento Primer Periodo </h1>
         </div>
 
-        <a className="pdfdescarga col-12" target="_blank"
+        <a className="pdfdescarga col-12 text-warning text-center" target="_blank"
           href="..."
         >Descargar Notas Primer Periodo <img className="pdff" src={Pdf} /></a>
 
         <div class="row">
           <div class="col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Ciencias Naturales</h5>
-                <a href="#" class="btn ">Física</a>
-                <a href="#" class="btn "> Química</a>
-                <a href="#" class="btn ">Biología</a>
+            <div class="card cardM">
+              <div class="card-body card-bodyM">
+                <h5 class="card-title card-titleM text-warning text-center">Ciencias Naturales</h5>
+                <a href="/calificaciones" class="btn btnb ">Física</a>
+                <a href="/calificaciones" class="btn btnb "> Química</a>
+                <a href="/calificaciones" class="btn btnb ">Biología</a>
               </div>
             </div>
           </div>
           <div class="col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Humanidades</h5>
-                <a href="#" class="btn">Inglés</a>
-                <a href="#" class="btn ">Lectora en Inglés</a>
-                <a href="#" class="btn ">Lengua Castellana</a>
+            <div class="card cardM">
+              <div class="card-body card-bodyM">
+                <h5 class="card-title card-titleM text-warning text-center">Humanidades</h5>
+                <a href="/calificaciones" class="btn btnb">Inglés</a>
+                <a href="/calificaciones" class="btn btnb ">Lectora en Inglés</a>
+                <a href="/calificaciones" class="btn btnb ">Lengua Castellana</a>
                 <div class="row">
                 </div>
               </div>
@@ -40,20 +40,20 @@ const Notas = () => {
           </div>
 
           <div class="col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Tecnología</h5>
-                <a href="#" class="btn ">Emprendimiento</a>
-                <a href="#" class="btn ">Tecnología</a>
+            <div class="card cardM">
+              <div class="card-body card-bodyM">
+                <h5 class="card-title card-titleM text-warning text-center">Tecnología</h5>
+                <a href="/calificaciones" class="btn btnb ">Emprendimiento</a>
+                <a href="/calificaciones" class="btn btnb ">Tecnología</a>
               </div>
             </div>
           </div>
           <div class="col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Educación Física Rereación y Deportes</h5>
-                <a href="#" class="btn ">Educación Física</a>
-                <a href="#" class="btn ">Tiempo Libre</a>
+            <div class="card cardM">
+              <div class="card-body card-bodyM">
+                <h5 class="card-title card-titleM text-warning text-center">Educación Física Rereación y Deportes</h5>
+                <a href="/calificaciones" class="btn btnb ">Educación Física</a>
+                <a href="/calificaciones" class="btn btnb ">Tiempo Libre</a>
 
               </div>
             </div>
@@ -61,55 +61,55 @@ const Notas = () => {
 
 
           <div class="col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Filosofía</h5>
-                <a href="#" class="btn ">Filosofía</a>
+            <div class="card cardM">
+              <div class="card-body card-bodyM">
+                <h5 class="card-title card-titleM text-warning text-center">Filosofía</h5>
+                <a href="/calificaciones" class="btn btnb ">Filosofía</a>
               </div>
             </div>
           </div>
           <div class="col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Artística</h5>
-                <a href="#" class="btn "> Artística</a>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Ciencias Económicas y Políticas</h5>
-                <a href="#" class="btn ">Economía y política</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Ciencias Religiosas</h5>
-                <a href="#" class="btn "> Religión</a>
+            <div class="card cardM">
+              <div class="card-body card-bodyM">
+                <h5 class="card-title card-titleM text-warning text-center">Artística</h5>
+                <a href="/calificaciones" class="btn btnb "> Artística</a>
               </div>
             </div>
           </div>
 
+
           <div class="col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Matemáticas</h5>
-                <a href="#" class="btn ">Matemáticas</a>
-                <a href="#" class="btn ">Lógica Matemática</a>
+            <div class="card cardM">
+              <div class="card-body card-bodyM">
+                <h5 class="card-title card-titleM text-warning text-center">Ciencias Económicas y Políticas</h5>
+                <a href="/calificaciones" class="btn btnb ">Economía y política</a>
               </div>
             </div>
           </div>
           <div class="col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Sociales</h5>
-                <a href="#" class="btn ">Ciencias Sociales</a>
-                <a href="#" class="btn ">Cátedra de la Paz</a>
+            <div class="card cardM">
+              <div class="card-body card-bodyM">
+                <h5 class="card-title card-titleM text-warning text-center">Ciencias Religiosas</h5>
+                <a href="/calificaciones" class="btn btnb "> Religión</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="card cardM">
+              <div class="card-body card-bodyM">
+                <h5 class="card-title card-titleM text-warning text-center">Matemáticas</h5>
+                <a href="/calificaciones" class="btn btnb">Matemáticas</a>
+                <a href="/calificaciones" class="btn btnb">Lógica Matemática</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card cardM">
+              <div class="card-body card-bodyM">
+                <h5 class="card-title card-titleM text-warning text-center">Sociales</h5>
+                <a href="/calificaciones" class="btn btnb ">Ciencias Sociales</a>
+                <a href="/calificaciones" class="btn btnb ">Cátedra de la Paz</a>
               </div>
             </div>
           </div>

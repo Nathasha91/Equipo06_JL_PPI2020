@@ -1,14 +1,123 @@
 import React from 'react';
-import Navbar from './components/Menu/Navbar'
-import ThatShit from './pages/Calificaciones/Calificaciones'
+import {
+  BrowserRouter,
+  Route,
+  Switch,
+  
+} from 'react-router-dom'
+import {
+  login,
+  matriculas,
+  tareas,
+  tareasHechas,
+  tareasPendientes,
+  calificaciones,
+  circulares,
+  horario,
+  horarioProfesores,
+  javieraHoy,
+  notas,
+  listaNotas,
+  observaciones
+} from './config/routes'
+import InicioSesion from './pages/InicioSesion/InicioSesion'
+import Matriculas from './pages/Matrículas/Matrículas'
+import Tareas from './pages/Tarea/Tareas'
+import TareasH from './pages/Tarea/TareasH'
+import TareasP from './pages/Tarea/TareasP'
+import Calificaciones from './pages/Calificaciones/Calificaciones'
+import Circulares from './pages/Circulares/CircularesOp'
+import Horario from './pages/Horario/Horario'
+import HorarioP from './pages/Horario/HorarioP'
+import JavieraHoy from './pages/JavieraHoy/JavieraHoy'
+import Notas from './pages/Notas/Notas'
+import ListaNotas from './pages/Notas/ListaNotas'
+import Observaciones from './pages/Observaciones/Observaciones'
+
+
+import Navbar from './components/Menu/Navbar';
+import Menu from './components/Menu/Menu'
+
 
 function App() {
   return (
 
-    <div className="App">
+    <BrowserRouter>
       <Navbar/>
-      <ThatShit/>
-    </div>
+      <Menu/>
+      <Switch>
+        <Route 
+         path={'/'} exact>
+           <InicioSesion />
+        </Route>
+
+        <Route 
+         path={matriculas()} exact>
+           <Matriculas />
+        </Route>
+
+        <Route 
+         path={login()} exact>
+           <InicioSesion />
+        </Route>
+
+        <Route 
+         path={tareas()} exact>
+           <Tareas />
+        </Route>
+
+        <Route 
+         path={tareasHechas()} exact>
+           <TareasH />
+        </Route>
+
+        <Route 
+         path={tareasPendientes()} exact>
+           <TareasP />
+        </Route>
+
+        <Route 
+         path={calificaciones()} exact>
+           <Calificaciones />
+        </Route>
+
+        <Route 
+         path={circulares()} exact>
+           <Circulares />
+        </Route>
+
+        <Route 
+         path={horario()} exact>
+           <Horario />
+        </Route>
+
+        <Route 
+         path={horarioProfesores()} exact>
+           <HorarioP />
+        </Route>
+
+        <Route 
+         path={javieraHoy()} exact>
+           <JavieraHoy />
+        </Route>
+
+        <Route 
+         path={notas()} exact>
+           <Notas />
+        </Route>
+
+        <Route 
+         path={listaNotas()} exact>
+           <ListaNotas />
+        </Route>
+
+        <Route 
+         path={observaciones()} exact>
+           <Observaciones />
+        </Route>
+
+      </Switch>
+    </BrowserRouter>
 
   );
 }

@@ -49,8 +49,13 @@ const Calificaciones = () => {
             </tbody>
             </table>
             </div>
-            <div clasName="Centrar">
-            <button type="button" class="btn btn-warning text-light">Observaciones</button>
+            <div className="Botones justify-content-center">
+            <div clasName="">
+                <a href="/observaciones" className="btn text-light btn-warning">Observaciones</a>
+            </div>
+            <div clasName="">
+                <a href="/notas" className="btn text-light btn-warning">Volver</a>
+            </div>
             </div>
             </div>
         </div>

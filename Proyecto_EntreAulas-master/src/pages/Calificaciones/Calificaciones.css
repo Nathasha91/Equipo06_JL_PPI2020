@@ -18,3 +18,7 @@
     justify-items: center;
     align-self: center;
 }
+
+.Botones {
+    display: inline-block;
+}

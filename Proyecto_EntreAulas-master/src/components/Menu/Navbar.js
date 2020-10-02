@@ -14,10 +14,10 @@ const Navbar = () => {
                     <p className='p2'>Javiera Londoño</p>
                 </div>
             </div>
-            <div className='yellow'>
+            {/* <div className='yellow'>
                 <img className='img2' src={burguer}/>
                 <img className='img3' src={chat}/>
-            </div> 
+            </div>  */}
         </div>
     )
 }

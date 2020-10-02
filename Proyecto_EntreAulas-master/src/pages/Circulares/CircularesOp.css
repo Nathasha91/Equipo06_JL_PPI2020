@@ -1,8 +1,13 @@
-.container{
+.containerb{
  
     justify-content: center;
     justify-items: center;
     align-self: center;
     height: 100%;
 
+}
+
+.invertir-margin {
+    margin-top: 20px;
+    margin-bottom: 0px;
 }

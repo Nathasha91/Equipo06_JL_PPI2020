@@ -9,7 +9,7 @@ const TareasP = () => {
             <div className="card-header">
               <ul className="nav nav-tabs card-header-tabs justify-content-center">
                 <li className="nav-item">
-                  <a className="nav-link text-warning" href="#">Hechas</a>
+                  <a className="nav-link text-warning" href="/tareasHechas">Hechas</a>
                 </li>
                 <li className="nav-item">
                 <a className="nav-link active" href="#">Pendientes</a>

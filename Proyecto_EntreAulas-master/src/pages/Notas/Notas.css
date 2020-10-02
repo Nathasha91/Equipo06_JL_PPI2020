@@ -1,22 +1,21 @@
-.root{
-
+.rooot{
    
-    display:flex;
+   display:flex;
    flex-direction: column;
    justify-content: center;
    align-items: center; 
    margin: 5%; 
+   
 }
 
-.btn{
+.btnb{
 
    display:flex;
    flex-direction: column;
    margin: 2%;
    background-color: #f8c74a;
    width: 40%;
-   border-color: black;
- 
+color: white; 
 
 }
 
@@ -31,7 +30,7 @@
 
 }
 
-.cont-indi{
+.cont-indiM{
 
    display:flex;
    flex-direction: column;
@@ -42,7 +41,7 @@
 
 }
 
-.card-title{
+.card-titleM{
 
    display:flex;
    flex-direction: column;
@@ -51,20 +50,19 @@
    margin: 2%;
 }
 
-.card{
+.cardM{
 
    width: 90%;
    margin: 2%;
-   border-color: darkslategray;
    
 }
 
-.Titulo{
+.TituloM{
 
    padding: 2%;
 }
 
-.card-body{
+.card-bodyM{
 
 
    display:flex;

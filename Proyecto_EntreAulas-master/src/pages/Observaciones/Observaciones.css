@@ -1,4 +1,4 @@
-.root{
+.rootO{
 
     display:flex;
     flex-direction: column;
@@ -7,22 +7,22 @@
     margin: 5%; 
  }
  
- .titulo{
+ .tituloO{
      padding: 2%;
  }
  
- .card-header{
+ .card-headerO{
      background-color: #f8c74a;
  }
  
- .card-footer{
+ .card-footerO{
      background-color: #f8c74a;
  }
  
- .btn{
+ .btnO{
      background-color: #f8c74a;
  }
  
- .card-text{
+ .card-textO{
      margin: 2%;
  }

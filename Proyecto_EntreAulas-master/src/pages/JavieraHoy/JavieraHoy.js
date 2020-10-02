@@ -16,7 +16,7 @@ const JavieraHoy = () => {
                 <h5 className='titulo'>Hoy</h5>
                 <div>
                     <p>En estás fechas estamos empezando un evento de los estudiantes para los estudiantes donde fomentamos el compromiso y los valores. Esperamos que con esto los estudiantes tengan una relación más íntegra unos con otros y logren entender la importancia de mantener una sana convivencia en los espacios de la javiera.</p>
-                    <img className='e5' scr={estudiantado5}/>
+                    <img className='e5' src={estudiantado5}/>
                 </div>
             </div>
             <div className='fecha'>

@@ -5,14 +5,14 @@ const TareasH = () => {
     return (
 
         <div>
-          <div className="card text-center w=80% tareas">
+          <div className="card text-center mb-3 tareas">
             <div className="card-header">
               <ul className="nav nav-tabs card-header-tabs justify-content-center">
                 <li className="nav-item">
                   <a className="nav-link active" href="#">Hechas</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-warning" href="#">Pendientes</a>
+                  <a className="nav-link text-warning" href="/tareasPendientes">Pendientes</a>
                 </li>
               </ul>
             </div>

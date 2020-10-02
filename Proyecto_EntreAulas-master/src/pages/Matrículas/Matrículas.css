@@ -1,4 +1,4 @@
-.root{
+.rootA{
 
     display:flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     margin: 5%;
 }
 
-.container-titulo{
+.container-tituloA{
 
     display:flex;
     flex-direction: column;
@@ -38,7 +38,7 @@
     text-align: justify;
 }
 
-.image{
+.imagea{
 
     width: 500px;
     padding: 2%;
@@ -77,12 +77,12 @@
     margin-right: 3%;
 }
 
-.col-4 a{
+.col-4a{
 
     width:100%;
 }
 
-.col-6{
+.col-6a{
 
     width:100%;
 }
@@ -92,7 +92,7 @@
     width: 85px;
 }
 
-.button{
+.buttonA{
 
     width:100%;
     padding: 2%;
