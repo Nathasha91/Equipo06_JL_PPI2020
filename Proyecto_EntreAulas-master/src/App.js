@@ -1,13 +1,13 @@
 import React from 'react';
 import Navbar from './components/Menu/Navbar'
-import ThatShit from './pages/Calificaciones/Calificaciones'
+import Tareas from './pages/Tarea/Tareas'
 
 function App() {
   return (
 
     <div className="App">
       <Navbar/>
-      <ThatShit/>
+      <Tareas/>
     </div>
 
   );
