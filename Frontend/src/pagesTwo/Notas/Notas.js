@@ -12,9 +12,9 @@ const Notas = () => {
         </div>
 
         <div class="row">
-          <div class="col-sm-6">
-            <div class="card cardM">
-              <div class="card-body card-bodyM">
+          <div class="col-sm-6 p-t">
+            <div class="card card-bodyM">
+              <div class="card-body card-bodyM Notas-grados">
                 <h5 class="card-title card-titleM text-violet text-center">Décimo</h5>
                 <a href="/calificaciones2" class="btn btnb btn-light-blue text-light" role="group" aria-label="Basic example">10-1</a>
                 <a href="/calificaciones2" class="btn btnb btn-light-blue text-light" role="group" aria-label="Basic example"> 10-2</a>
@@ -24,9 +24,9 @@ const Notas = () => {
               </div>
             </div>
           </div>
-          <div class="col-sm-6">
-            <div class="card cardM">
-            <div class="card-body card-bodyM">
+          <div class="col-sm-6 p-t">
+            <div class="card card-bodyM">
+            <div class="card-body card-bodyM Notas-grados">
                 <h5 class="card-title card-titleM text-violet text-center">Once</h5>
                 <a href="/calificaciones2" class="btn btnb btn-light-blue text-light" role="group" aria-label="Basic example">11-1</a>
                 <a href="/calificaciones2" class="btn btnb btn-light-blue text-light" role="group" aria-label="Basic example">11-2</a>

@@ -33,7 +33,17 @@ import {
   javieraHoy2,
   notas2,
   observaciones2,
-  foro2
+  foro2,
+
+
+
+  login3,
+  matriculas3,
+  circulares3,
+  horario3,
+  horarioProfesores3,
+  javieraHoy3,
+  foro3
 } from './config/routes'
 import InicioSesion from './pages/InicioSesion/InicioSesion'
 import Matriculas from './pages/Matrículas/Matrículas'
@@ -49,8 +59,8 @@ import Notas from './pages/Notas/Notas'
 import Observaciones from './pages/Observaciones/Observaciones'
 import Foro from './pages/Foro/Foro'
 
-import Navbar from './componentsTwo/Menu/Navbar';
-import Menu from './componentsTwo/Menu/Menu'
+import Navbar from './components/Menu/Navbar';
+import Menu from './components/Menu/Menu'
 
 import InicioSesion2 from './pagesTwo/InicioSesion/InicioSesion'
 import Matriculas2 from './pagesTwo/Matrículas/Matrículas'
@@ -66,6 +76,16 @@ import Observaciones2 from './pagesTwo/Observaciones/Observaciones'
 import Foro2 from './pagesTwo/Foro/Foro'
 
 import Menu2 from './componentsTwo/Menu/Menu'
+
+import InicioSesion3 from './pagesTres/InicioSesion/InicioSesion'
+import Matriculas3 from './pagesTres/Matrículas/Matrículas'
+import Circulares3 from './pagesTres/Circulares/CircularesOp'
+import Horario3 from './pagesTres/Horario/Horario'
+import HorarioP3 from './pagesTres/Horario/HorarioP'
+import JavieraHoy3 from './pagesTres/JavieraHoy/JavieraHoy'
+import Foro3 from './pagesTres/Foro/Foro'
+
+import Menu3 from './componentsTres/Menu/Menu'
 
 
 function App() {
@@ -207,6 +227,45 @@ function App() {
         <Route 
          path={foro2()} exact>
            <Foro2 />
+        </Route>
+
+
+
+
+
+        <Route 
+         path={matriculas3()} exact>
+           <Matriculas3 />
+        </Route>
+
+        <Route 
+         path={login3()} exact>
+           <InicioSesion3 />
+        </Route>
+
+        <Route 
+         path={circulares3()} exact>
+           <Circulares3 />
+        </Route>
+
+        <Route 
+         path={horario3()} exact>
+           <Horario3 />
+        </Route>
+
+        <Route 
+         path={horarioProfesores3()} exact>
+           <HorarioP3 />
+        </Route>
+
+        <Route 
+         path={javieraHoy3()} exact>
+           <JavieraHoy3 />
+        </Route>
+
+        <Route 
+         path={foro3()} exact>
+           <Foro3 />
         </Route>
 
 

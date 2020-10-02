@@ -100,3 +100,36 @@ export function observaciones2() {
 export function foro2() {
     return '/foro2'
 }
+
+
+
+
+
+
+export function login3() {
+    return '/inicioSesion3'
+}
+
+export function matriculas3() {
+    return '/matriculas3'
+}
+
+export function circulares3() {
+    return '/circulares3'
+}
+
+export function horario3() {
+    return '/horario3'
+}
+
+export function horarioProfesores3() {
+    return '/horarioProfesores3'
+}
+
+export function javieraHoy3() {
+    return '/javieraHoy3'
+}
+
+export function foro3() {
+    return '/foro3'
+}
