@@ -93,7 +93,6 @@ function App() {
 
     <BrowserRouter>
       <Navbar/>
-      <Menu2/>
       <Switch>
         <Route 
          path={'/'} exact>
@@ -112,56 +111,67 @@ function App() {
 
         <Route 
          path={tareas()} exact>
+           <Menu/>
            <Tareas />
         </Route>
 
         <Route 
          path={tareasHechas()} exact>
+           <Menu/>
            <TareasH />
         </Route>
 
         <Route 
          path={tareasPendientes()} exact>
+           <Menu/>
            <TareasP />
         </Route>
 
         <Route 
          path={calificaciones()} exact>
+           <Menu/>
            <Calificaciones />
         </Route>
 
         <Route 
          path={circulares()} exact>
+           <Menu/>
            <Circulares />
         </Route>
 
         <Route 
          path={horario()} exact>
+           <Menu/>
            <Horario />
         </Route>
 
         <Route 
          path={horarioProfesores()} exact>
+           <Menu/>
            <HorarioP />
         </Route>
 
         <Route 
          path={javieraHoy()} exact>
+           <Menu/>
            <JavieraHoy />
         </Route>
 
         <Route 
          path={notas()} exact>
+           <Menu/>
            <Notas />
         </Route>
 
         <Route 
          path={observaciones()} exact>
+           <Menu/>
            <Observaciones />
         </Route>
 
         <Route 
          path={foro()} exact>
+           <Menu/>
            <Foro />
         </Route>
 
@@ -181,51 +191,61 @@ function App() {
 
         <Route 
          path={tareas2()} exact>
+           <Menu2/>
            <Tareas2 />
         </Route>
 
         <Route 
          path={tareasHechas2()} exact>
+           <Menu2/>
            <TareasH2 />
         </Route>
 
         <Route 
          path={calificaciones2()} exact>
+           <Menu2/>
            <Calificaciones2 />
         </Route>
 
         <Route 
          path={circulares2()} exact>
+           <Menu2/>
            <Circulares2 />
         </Route>
 
         <Route 
          path={horario2()} exact>
+           <Menu2/>
            <Horario2 />
         </Route>
 
         <Route 
          path={horarioProfesores2()} exact>
+           <Menu2/>
            <HorarioP2 />
         </Route>
 
         <Route 
          path={javieraHoy2()} exact>
+           <Menu2/>
            <JavieraHoy2 />
         </Route>
 
         <Route 
          path={notas2()} exact>
+           <Menu2/>
            <Notas2 />
         </Route>
 
         <Route 
          path={observaciones2()} exact>
+           <Menu2/>
            <Observaciones2 />
         </Route>
 
         <Route 
          path={foro2()} exact>
+           <Menu2/>
            <Foro2 />
         </Route>
 
@@ -245,26 +265,31 @@ function App() {
 
         <Route 
          path={circulares3()} exact>
+           <Menu3/>
            <Circulares3 />
         </Route>
 
         <Route 
          path={horario3()} exact>
+           <Menu3/>
            <Horario3 />
         </Route>
 
         <Route 
          path={horarioProfesores3()} exact>
+           <Menu3/>
            <HorarioP3 />
         </Route>
 
         <Route 
          path={javieraHoy3()} exact>
+           <Menu3/>
            <JavieraHoy3 />
         </Route>
 
         <Route 
          path={foro3()} exact>
+           <Menu3/>
            <Foro3 />
         </Route>
 
