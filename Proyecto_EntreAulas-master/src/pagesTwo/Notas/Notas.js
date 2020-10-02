@@ -11,10 +11,6 @@ const Notas = () => {
           <h1 className="text-violet text-center"> Seguimiento Primer Periodo </h1>
         </div>
 
-        <a className="pdfdescarga col-12 text-primary text-center" target="_blank"
-          href="..."
-        ><img className="pdff" src={Pdf} /></a>
-
         <div class="row">
           <div class="col-sm-6">
             <div class="card cardM">
