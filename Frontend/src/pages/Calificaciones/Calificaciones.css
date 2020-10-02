@@ -1,0 +1,23 @@
+.text-coral {
+    color: coral;
+}
+
+.mb {
+    margin-bottom: 3px; 
+}
+
+.imagen {
+    margin: 2%;
+    margin-bottom: 1%;
+    margin-top: 0%;
+}
+
+.Centrar {
+    justify-content: center;
+    justify-items: center;
+    align-self: center;
+}
+
+.Botones {
+    display: inline-block;
+}

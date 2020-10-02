@@ -1,0 +1,58 @@
+.negrita {
+    font-weight: bold;
+}
+
+.eldiv {
+    display: inline-block;
+}
+
+.theFuckingCard {
+    width: 18rem;
+
+}
+
+.Parrafo-top {
+    margin-top: 16px;
+}
+
+.Parrafos {
+    margin-bottom: 4px;
+}
+
+.Div-card {
+    display: inline-block;
+    justify-content: center;
+}
+
+.school-card {
+    display: inline-block;
+    margin: 1%;
+}
+
+.botones {
+    margin: 1%;
+}
+
+.modal-margen {
+    padding: 7%;
+}
+
+.derecha {
+    justify-content: end;
+}
+
+.btn-coral {
+    background-color: coral;
+}
+
+.text-coral {
+    color: coral;
+}
+
+.grupitos {
+    padding: 5%;
+}
+
+.tareasH {
+    padding: 5%;
+}

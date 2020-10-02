@@ -1,0 +1,73 @@
+.rooot{
+   
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+   margin: 5%; 
+   
+}
+
+.btnb{
+
+   display:flex;
+   flex-direction: column;
+   margin: 2%;
+   background-color: #f8c74a;
+   width: 40%;
+color: white; 
+
+}
+
+.pdff{
+   width: 30px;
+}
+
+.pdfdescarga{
+
+   margin: 2%;
+   text-align: center;
+
+}
+
+.cont-indiM{
+
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+   margin: 2%;
+   width: 100%;
+
+}
+
+.card-titleM{
+
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+   margin: 2%;
+}
+
+.cardM{
+
+   width: 90%;
+   margin: 2%;
+   
+}
+
+.TituloM{
+
+   padding: 2%;
+}
+
+.card-bodyM{
+
+
+   display:flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+ 
+}

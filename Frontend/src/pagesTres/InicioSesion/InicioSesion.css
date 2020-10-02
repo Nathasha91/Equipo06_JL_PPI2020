@@ -1,0 +1,61 @@
+.containerIS{
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+    align-self: center;
+    height: 100%;
+}
+
+.Boton1{
+    width: 50%;
+}
+.Boton2{
+    width: 50%;
+    
+}
+
+.btnform {
+    display: inline-block;
+    padding-right: 1%;
+}
+
+.btnform1 {
+    display: inline-block;
+    padding-left: 1%;
+}
+
+.bg-blue {
+    background-color: rgb(0, 59, 185);
+}
+
+.btn-blue {
+    background-color: rgb(0, 59, 185);
+}
+
+.text-blue {
+    color: rgb(0, 59, 185);
+}
+
+.bg-violet {
+    background-color: rgb(87, 65, 167);
+}
+
+.btn-violet {
+    background-color: rgb(87, 65, 167);
+}
+
+.text-violet {
+    color: rgb(87, 65, 167);
+}
+
+.bg-light-blue {
+    background-color: rgb(68, 165, 255);
+}
+
+.btn-light-blue {
+    background-color: rgb(68, 165, 255);
+}
+
+.text-light-blue {
+    color: rgb(68, 165, 255);
+}

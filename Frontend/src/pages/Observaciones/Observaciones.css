@@ -1,0 +1,24 @@
+.rootO{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin: 5%; 
+ }
+ 
+ .tituloO{
+     padding: 2%;
+ }
+ 
+ .card-headerO{
+     background-color: coral;
+ }
+ 
+ .card-footerO{
+     background-color: coral;
+ }
+ 
+ .card-textO{
+     margin: 2%;
+ }
