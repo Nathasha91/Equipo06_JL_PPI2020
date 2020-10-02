@@ -5,18 +5,21 @@ const Observaciones = () => {
     return (
         <div className="root rootO">
 
-            <div className="titulo text-warning tituloO"><h1>Observaciones</h1></div>
+            <div className="titulo text-violet tituloO"><h1>Observaciones</h1></div>
 
             <div className="card text-center">
-                <div className="text-light card-header card-headerO">
-                    Docente: Jorge Amaya Baena
+                <div className="text-light card-header card-headerO bg-blue">
+                    De: Docente Jorge Amaya Baena
+                    Para: Parra Lopera Sebastian
                 </div>
                 <div className="card-body">
                     <h4 className="card-title titulo">Matemáticas</h4>
-                    <p className="card-text">El estudiante no presta atención en clase y tampoco permite que los otros compañeros se concentren.</p>
-                    <a href="/calificaciones2" className="btn text-light btn-warning">Volver a mis notas</a>
+                        <div class="modal-body">
+                            <textarea class="form-control" placeholder="Sin miedo que no mordemos..." id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    <a href="/calificaciones2" className="btn text-light btn-violet">Volver a mis notas</a>
                 </div>
-                <div className="text-light card-footer card-footerO">
+                <div className="text-light card-footer card-footerO bg-blue">
                     Hace dos días...
                 </div>
             </div>
