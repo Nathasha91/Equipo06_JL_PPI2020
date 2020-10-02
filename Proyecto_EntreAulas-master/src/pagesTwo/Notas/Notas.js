@@ -16,23 +16,23 @@ const Notas = () => {
             <div class="card cardM">
               <div class="card-body card-bodyM">
                 <h5 class="card-title card-titleM text-violet text-center">Décimo</h5>
-                <a href="/calificaciones2" class="btn btnb btn-light-blue text-light">10-1</a>
-                <a href="/calificaciones2" class="btn btnb btn-light-blue text-light"> 10-2</a>
-                <a href="/calificaciones2" class="btn btnb btn-light-blue text-light">10-3</a>
-                <a href="/calificaciones2" class="btn btnb btn-light-blue text-light">10-4</a>
-                <a href="/calificaciones2" class="btn btnb btn-light-blue text-light"> 10-5</a>
+                <a href="/calificaciones2" class="btn btnb btn-light-blue text-light" role="group" aria-label="Basic example">10-1</a>
+                <a href="/calificaciones2" class="btn btnb btn-light-blue text-light" role="group" aria-label="Basic example"> 10-2</a>
+                <a href="/calificaciones2" class="btn btnb btn-light-blue text-light" role="group" aria-label="Basic example">10-3</a>
+                <a href="/calificaciones2" class="btn btnb btn-light-blue text-light" role="group" aria-label="Basic example">10-4</a>
+                <a href="/calificaciones2" class="btn btnb btn-light-blue text-light" role="group" aria-label="Basic example"> 10-5</a>
               </div>
             </div>
           </div>
           <div class="col-sm-6">
             <div class="card cardM">
-              <div class="card-body card-bodyM">
+            <div class="card-body card-bodyM">
                 <h5 class="card-title card-titleM text-violet text-center">Once</h5>
-                <a href="/calificaciones2" class="btn btnb btn-light-blue text-light">11-1</a>
-                <a href="/calificaciones2" class="btn btnb btn-light-blue text-light">11-2</a>
-                <a href="/calificaciones2" class="btn btnb btn-light-blue text-light">11-3</a>
-                <a href="/calificaciones2" class="btn btnb btn-light-blue text-light">11-4</a>
-                <a href="/calificaciones2" class="btn btnb btn-light-blue text-light">11-5</a>
+                <a href="/calificaciones2" class="btn btnb btn-light-blue text-light" role="group" aria-label="Basic example">11-1</a>
+                <a href="/calificaciones2" class="btn btnb btn-light-blue text-light" role="group" aria-label="Basic example">11-2</a>
+                <a href="/calificaciones2" class="btn btnb btn-light-blue text-light" role="group" aria-label="Basic example">11-3</a>
+                <a href="/calificaciones2" class="btn btnb btn-light-blue text-light" role="group" aria-label="Basic example">11-4</a>
+                <a href="/calificaciones2" class="btn btnb btn-light-blue text-light" role="group" aria-label="Basic example">11-5</a>
                 <div class="row">
                 </div>
               </div>

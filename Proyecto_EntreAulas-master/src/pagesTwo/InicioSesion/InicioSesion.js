@@ -25,11 +25,11 @@ const InicioSesion = () => {
                 </div>
                 <div className="Boton1 btnform">
                 <div className="form-group col-md-6"></div>
-                  <a href="/javieraHoy2" className="btn text-light btn-warning col-12">Ingresar</a>
+                  <a href="/javieraHoy2" className="btn text-light btn-violet col-12">Ingresar</a>
                 </div>
                 <div className="Boton2 btnform1">
                 <div className="form-group col-md-6"></div>
-                    <a href="/matriculas2" className="btn text-light btn-warning col-12">Matrículas</a>
+                    <a href="/matriculas2" className="btn text-light btn-blue col-12">Matrículas</a>
                 </div>
               </form>
            </div>
