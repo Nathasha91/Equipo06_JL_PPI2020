@@ -35,13 +35,16 @@ const Menu = () => {
         </div>
       </li>
       <li className="nav-item">
-        <a className="nav-link btn text-light" href="/horario2">Horario</a>
+        <a className="nav-padding btn text-light" href="/publicar2">Publicar</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link btn text-light" href="/circulares2">Circulares</a>
+        <a className="nav-padding btn text-light" href="/horario2">Horario</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link btn text-light" href="/foro2">Foro</a>
+        <a className="nav-padding btn text-light" href="/circulares2">Circulares</a>
+      </li>
+      <li className="nav-item">
+        <a className="nav-padding btn text-light" href="/foro2">Foro</a>
       </li>
     </ul>
     <span class="navbar-text">

@@ -1,4 +1,6 @@
 import React from 'react'
+import style from './Foro.css'
+
 const Foro = () => {
    return (
 
@@ -60,26 +62,27 @@ const Foro = () => {
     </div>
   </div>
   <div class="card">
-    <div class="card-header" id="headingThree">
+    <div class="card-header" id="headingFour">
       <h2 class="mb-0">
-        <button class="btn btn-link btn-block text-left collapsed text-warning" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <button class="btn btn-link btn-block text-left collapsed text-warning" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
           ¿Cuál es el conducto regular?
         </button>
       </h2>
     </div>
-    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
       <div class="card-body">
       Mucho gusto, cordial saludo. Dentro de la Institución Educativa Javiera Londoño, una Instituciòn de calidad, tenemos diferentes formas en las que puedes resolver sus problemas, entre ellas algunas muy accesibles para los diferentes estudiantes y acudientes.
       </div>
     </div>
   </div>
 </div>
-</div>
 
+<div className="preguntas-modal container">
 <button type="button" class="btn btn-warning text-light" data-toggle="modal" data-target="#staticBackdropForo">¡Animate a preguntar!</button>
 
+
 <div class="modal fade" id="staticBackdropForo" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog  modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title text-warning" id="staticBackdropLabel">Deja aquí tu pregunta</h5>
@@ -96,6 +99,8 @@ const Foro = () => {
       </div>
     </div>
   </div>
+</div>
+</div>
 </div>
 
       </div>

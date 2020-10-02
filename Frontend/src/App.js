@@ -26,6 +26,7 @@ import {
   matriculas2,
   tareas2,
   tareasHechas2,
+  publicar2,
   calificaciones2,
   circulares2,
   horario2,
@@ -66,6 +67,7 @@ import InicioSesion2 from './pagesTwo/InicioSesion/InicioSesion'
 import Matriculas2 from './pagesTwo/Matrículas/Matrículas'
 import Tareas2 from './pagesTwo/Tarea/Tareas'
 import TareasH2 from './pagesTwo/Tarea/TareasH'
+import Publicar2 from './pagesTwo/Publicar/Publicar'
 import Calificaciones2 from './pagesTwo/Calificaciones/Calificaciones'
 import Circulares2 from './pagesTwo/Circulares/CircularesOp'
 import Horario2 from './pagesTwo/Horario/Horario'
@@ -199,6 +201,12 @@ function App() {
          path={tareasHechas2()} exact>
            <Menu2/>
            <TareasH2 />
+        </Route>
+
+        <Route 
+         path={publicar2()} exact>
+           <Menu2/>
+           <Publicar2 />
         </Route>
 
         <Route 

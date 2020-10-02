@@ -15,20 +15,15 @@ const Menu = () => {
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto">
       <li className="nav-item">
-        <a className="nav-link btn text-light" href="/horario3">Horarios</a>
+        <a className="nav-padding btn text-light" href="/horario3">Horarios</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link btn text-light" href="/circulares3">Circulares</a>
+        <a className="nav-padding btn text-light" href="/circulares3">Circulares</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link btn text-light" href="/foro3">Foro</a>
+        <a className="nav-padding btn text-light" href="/foro3">Foro</a>
       </li>
     </ul>
-    <span class="navbar-text">
-      <a class="navbar-brand" href="#">
-        <img src={chat} width="50" height="50" alt="" loading="lazy"/>
-      </a>
-    </span>
   </div>
 </nav>
         </div>

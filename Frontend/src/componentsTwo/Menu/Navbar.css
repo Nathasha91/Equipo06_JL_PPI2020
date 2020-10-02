@@ -86,3 +86,7 @@
 .text-light-blue {
     color: rgb(68, 165, 255);
 }
+
+.nav-padding {
+    padding-left: 0px;
+}

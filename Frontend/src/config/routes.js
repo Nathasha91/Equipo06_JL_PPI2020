@@ -69,6 +69,10 @@ export function tareasHechas2() {
     return '/tareasHechas2'
 }
 
+export function publicar2() {
+    return '/publicar2'
+}
+
 export function calificaciones2() {
     return '/calificaciones2'
 }
