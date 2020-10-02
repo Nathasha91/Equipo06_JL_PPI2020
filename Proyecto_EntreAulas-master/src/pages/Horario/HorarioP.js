@@ -16,13 +16,13 @@ const HorarioP= () => {
         </li>
       </ul>
       <div className="m-5">
-        <h4 className="text-warning text-center">Diana Mosquera</h4>
+        <h4 className="text-coral text-center">Diana Mosquera</h4>
       </div>
       <div className="m-5">
         <img height="150px" src={Imagen} className="rounded mx-auto d-block" height="300px" alt="Horario"></img> 
       </div>
       <div className="m-5">
-        <h4 className="text-warning text-center">Mauricio Melo Rosas</h4>
+        <h4 className="text-coral text-center">Mauricio Melo Rosas</h4>
       </div>
       <div className="m-5">            
         <img height="150px" src={Imagen} className="rounded mx-auto d-block" height="300px" alt="Horario"></img>

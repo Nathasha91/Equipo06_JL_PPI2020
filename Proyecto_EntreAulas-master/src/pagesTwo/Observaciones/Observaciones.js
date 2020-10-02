@@ -14,7 +14,7 @@ const Observaciones = () => {
                 <div className="card-body">
                     <h4 className="card-title titulo">Matemáticas</h4>
                     <p className="card-text">El estudiante no presta atención en clase y tampoco permite que los otros compañeros se concentren.</p>
-                    <a href="/calificaciones" className="btn text-light btn-warning">Volver a mis notas</a>
+                    <a href="/calificaciones2" className="btn text-light btn-warning">Volver a mis notas</a>
                 </div>
                 <div className="text-light card-footer card-footerO">
                     Hace dos días...

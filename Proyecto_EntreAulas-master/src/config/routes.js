@@ -49,3 +49,58 @@ export function observaciones() {
 export function foro() {
     return '/foro'
 }
+
+
+
+
+export function login2() {
+    return '/inicioSesion2'
+}
+
+export function matriculas2() {
+    return '/matriculas2'
+}
+
+export function tareas2() {
+    return '/tareas2'
+}
+
+export function tareasHechas2() {
+    return '/tareasHechas2'
+}
+
+export function tareasPendientes2() {
+    return '/tareasPendientes2'
+}
+
+export function calificaciones2() {
+    return '/calificaciones2'
+}
+
+export function circulares2() {
+    return '/circulares2'
+}
+
+export function horario2() {
+    return '/horario2'
+}
+
+export function horarioProfesores2() {
+    return '/horarioProfesores2'
+}
+
+export function javieraHoy2() {
+    return '/javieraHoy2'
+}
+
+export function notas2() {
+    return '/notas2'
+}
+
+export function observaciones2() {
+    return '/observaciones2'
+}
+
+export function foro2() {
+    return '/foro2'
+}
