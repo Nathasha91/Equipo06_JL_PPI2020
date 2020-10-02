@@ -26,7 +26,6 @@ import {
   matriculas2,
   tareas2,
   tareasHechas2,
-  tareasPendientes2,
   calificaciones2,
   circulares2,
   horario2,
@@ -57,7 +56,6 @@ import InicioSesion2 from './pagesTwo/InicioSesion/InicioSesion'
 import Matriculas2 from './pagesTwo/Matrículas/Matrículas'
 import Tareas2 from './pagesTwo/Tarea/Tareas'
 import TareasH2 from './pagesTwo/Tarea/TareasH'
-import TareasP2 from './pagesTwo/Tarea/TareasP'
 import Calificaciones2 from './pagesTwo/Calificaciones/Calificaciones'
 import Circulares2 from './pagesTwo/Circulares/CircularesOp'
 import Horario2 from './pagesTwo/Horario/Horario'
@@ -169,11 +167,6 @@ function App() {
         <Route 
          path={tareasHechas2()} exact>
            <TareasH2 />
-        </Route>
-
-        <Route 
-         path={tareasPendientes2()} exact>
-           <TareasP2 />
         </Route>
 
         <Route 

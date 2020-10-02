@@ -69,10 +69,6 @@ export function tareasHechas2() {
     return '/tareasHechas2'
 }
 
-export function tareasPendientes2() {
-    return '/tareasPendientes2'
-}
-
 export function calificaciones2() {
     return '/calificaciones2'
 }
