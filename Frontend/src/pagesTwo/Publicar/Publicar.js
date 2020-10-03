@@ -1,4 +1,6 @@
 import React from 'react'
+
+
 const Publicar = () => {
     return (
         <div>
@@ -17,7 +19,7 @@ const Publicar = () => {
 
 <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm">DD/MM/AA</input>
 
-<button type="button" class="btn btn-primary"> Publicar.</button>
+<button type="button" class="btn btn-blue text-light"> Publicar.</button>
 
         </div>
           )

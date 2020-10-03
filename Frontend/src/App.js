@@ -49,7 +49,7 @@ import {
 } from './config/routes'
 import InicioSesion from './pages/InicioSesion/InicioSesion'
 import Matriculas from './pages/Matrículas/Matrículas'
-// import Casa from './pages/Tarea/Tareas'
+// import Tareas from './pages/Tarea/Tareas'
 import TareasH from './pages/Tarea/TareasH'
 import TareasP from './pages/Tarea/TareasP'
 import Calificaciones from './pages/Calificaciones/Calificaciones'
@@ -116,7 +116,7 @@ function App() {
         {/* <Route 
          path={tareas()} exact>
            <Menu/>
-           <Casa />
+           <Tareas />
         </Route> */}
 
         <Route 
