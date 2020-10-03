@@ -50,6 +50,11 @@ export function foro() {
     return '/foro'
 }
 
+export function join() {
+    return '/join'
+}
+
+
 
 
 

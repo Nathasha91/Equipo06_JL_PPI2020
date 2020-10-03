@@ -14,13 +14,30 @@ const JavieraHoy = () => {
         <div className='texto'>
             <div className='fecha'>
                 <h5 className='text-violet'>Hoy</h5>
-                <div>
-                    <p>En estás fechas estamos empezando un evento de los estudiantes para los estudiantes donde fomentamos el compromiso y los valores. Esperamos que con esto los estudiantes tengan una relación más íntegra unos con otros y logren entender la importancia de mantener una sana convivencia en los espacios de la javiera.</p>
-                    <img className='e5' src={estudiantado5}/>
-                </div>
+                <p>En estás fechas estamos empezando un evento de los estudiantes para los estudiantes donde fomentamos el compromiso y los valores. Esperamos que con esto los estudiantes tengan una relación más íntegra unos con otros y logren entender la importancia de mantener una sana convivencia en los espacios de la javiera.</p>
             </div>
             <div className='fecha'>
                 <h5 className='text-violet'>Ayer</h5>
+                <p>En estás fechas estamos empezando un evento de los estudiantes para los estudiantes donde fomentamos el compromiso y los valores. Esperamos que con esto los estudiantes tengan una relación más íntegra unos con otros y logren entender la importancia de mantener una sana convivencia en los espacios de la javiera.</p>
+            </div>
+            <div className='fecha'>
+                <h5 className='text-violet'>Julio</h5>
+                <p>En estás fechas estamos empezando un evento de los estudiantes para los estudiantes donde fomentamos el compromiso y los valores. Esperamos que con esto los estudiantes tengan una relación más íntegra unos con otros y logren entender la importancia de mantener una sana convivencia en los espacios de la javiera.</p>
+            </div>
+            <div className='fecha'>
+                <h5 className='text-violet'>Junio</h5>
+                <p>En estás fechas estamos empezando un evento de los estudiantes para los estudiantes donde fomentamos el compromiso y los valores. Esperamos que con esto los estudiantes tengan una relación más íntegra unos con otros y logren entender la importancia de mantener una sana convivencia en los espacios de la javiera.</p>
+            </div>
+            <div className='fecha'>
+                <h5 className='text-violet'>Mayo</h5>
+                <p>En estás fechas estamos empezando un evento de los estudiantes para los estudiantes donde fomentamos el compromiso y los valores. Esperamos que con esto los estudiantes tengan una relación más íntegra unos con otros y logren entender la importancia de mantener una sana convivencia en los espacios de la javiera.</p>
+            </div>
+            <div className='fecha'>
+                <h5 className='text-violet'>Abril</h5>
+                <p>En estás fechas estamos empezando un evento de los estudiantes para los estudiantes donde fomentamos el compromiso y los valores. Esperamos que con esto los estudiantes tengan una relación más íntegra unos con otros y logren entender la importancia de mantener una sana convivencia en los espacios de la javiera.</p>
+            </div>
+            <div className='fecha'>
+                <h5 className='text-violet'>Marzo</h5>
                 <p>En estás fechas estamos empezando un evento de los estudiantes para los estudiantes donde fomentamos el compromiso y los valores. Esperamos que con esto los estudiantes tengan una relación más íntegra unos con otros y logren entender la importancia de mantener una sana convivencia en los espacios de la javiera.</p>
             </div>
         </div>

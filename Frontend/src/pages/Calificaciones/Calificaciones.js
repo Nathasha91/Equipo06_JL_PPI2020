@@ -49,12 +49,12 @@ const Calificaciones = () => {
             </tbody>
             </table>
             </div>
-            <div className="Botones justify-content-center">
+            <div className="preguntas-modal">
             <div clasName="">
-                <a href="/observaciones" className="btn text-light btn-warning">Observaciones</a>
+                <a href="/observaciones" className="btn text-light btn-warning botones-notas">Observaciones</a>
             </div>
             <div clasName="">
-                <a href="/notas" className="btn text-light btn-coral">Volver</a>
+                <a href="/notas" className="btn text-light btn-coral botones-notas">Volver</a>
             </div>
             </div>
             </div>

@@ -19,6 +19,7 @@ import {
   notas,
   observaciones,
   foro,
+  join,
 
 
 
@@ -48,7 +49,7 @@ import {
 } from './config/routes'
 import InicioSesion from './pages/InicioSesion/InicioSesion'
 import Matriculas from './pages/Matrículas/Matrículas'
-import Tareas from './pages/Tarea/Tareas'
+import Casa from './pages/Tarea/Tareas'
 import TareasH from './pages/Tarea/TareasH'
 import TareasP from './pages/Tarea/TareasP'
 import Calificaciones from './pages/Calificaciones/Calificaciones'
@@ -62,6 +63,7 @@ import Foro from './pages/Foro/Foro'
 
 import Navbar from './components/Menu/Navbar';
 import Menu from './components/Menu/Menu'
+import Join from './components/Join/Join'
 
 import InicioSesion2 from './pagesTwo/InicioSesion/InicioSesion'
 import Matriculas2 from './pagesTwo/Matrículas/Matrículas'
@@ -111,11 +113,11 @@ function App() {
            <InicioSesion />
         </Route>
 
-        <Route 
+        {/* <Route 
          path={tareas()} exact>
            <Menu/>
-           <Tareas />
-        </Route>
+           <Casa />
+        </Route> */}
 
         <Route 
          path={tareasHechas()} exact>
@@ -175,6 +177,12 @@ function App() {
          path={foro()} exact>
            <Menu/>
            <Foro />
+        </Route>
+
+        <Route 
+         path={join()} exact>
+           <Menu/>
+           <Join />
         </Route>
 
 

@@ -33,11 +33,8 @@ const TareasH = () => {
 
                             <h5 className="card-title text-light-blue negrita Parrafos">Lopez Gaviria Lorena Alejandra</h5>
                             <h5 className="card-title text-blue">Emprendimiento</h5>
-                            <p className="card-text Parrafo-top text-muted">Hola chicos, espero y se encuentren muy bien, les comparto el taller con la actividad para esta semana, si se les presenta alguna duda o inquietud pueden escribirme al interno, respetando los tiempos estipulados.</p>
-                            <p className="card-text">Muy bien desarrollados los diferentes puntos, se nota que prestó atención en clase. En el punto número dos le hice una pequeña corrección, para que esté más pendiente de esos detalles en el futuro.</p>
-                            <h5 className="card-title text-violet">Nota: 4,5</h5>
+        <textarea class="form-control" placeholder="Deja un comentario..." id="exampleFormControlTextarea1" rows="3"></textarea>
                             <a href="#" class="btn btn-light-blue botones text-light">Taller N°1</a>
-                            <a href="#" class="btn btn-light-blue botones text-light">Mi Taller</a>
                             <div className="derecha">
                               <p className="card-text Parrafos Parrafo-top">Entregado el 15/02/2020</p>
                               <p className="card-text Parrafos">Publicado el 10/02/2020</p>
@@ -45,7 +42,6 @@ const TareasH = () => {
 
                           </div>
                           <div class="modal-footer">
-                            <a href="#" class="btn btn-blue botones text-light">Reclamar</a>
                             <button type="button" class="btn btn-light-blue botones text-light" data-dismiss="modal">Cerrar</button>
                           </div>
                         </div>
@@ -79,11 +75,8 @@ const TareasH = () => {
 
                             <h5 className="card-title text-light-blue negrita Parrafos">Lopez Gaviria Lorena Alejandra</h5>
                             <h5 className="card-title text-blue">Emprendimiento</h5>
-                            <p className="card-text Parrafo-top text-muted">Hola chicos, espero y se encuentren muy bien, les comparto el taller con la actividad para esta semana, si se les presenta alguna duda o inquietud pueden escribirme al interno, respetando los tiempos estipulados.</p>
-                            <p className="card-text">Muy bien desarrollados los diferentes puntos, se nota que prestó atención en clase. En el punto número dos le hice una pequeña corrección, para que esté más pendiente de esos detalles en el futuro.</p>
-                            <h5 className="card-title text-violet">Nota: 4,5</h5>
+        <textarea class="form-control" placeholder="Deja tu comentario..." id="exampleFormControlTextarea1" rows="3"></textarea>
                             <a href="#" class="btn btn-light-blue botones text-light">Taller N°2</a>
-                            <a href="#" class="btn btn-light-blue botones text-light">Mi Taller</a>
                             <div className="derecha">
                               <p className="card-text Parrafos Parrafo-top">Entregado el 15/03/2020</p>
                               <p className="card-text Parrafos">Publicado el 10/03/2020</p>
@@ -91,7 +84,6 @@ const TareasH = () => {
 
                           </div>
                           <div class="modal-footer">
-                            <a href="#" class="btn btn-blue botones text-light">Reclamar</a>
                             <button type="button" class="btn btn-light-blue botones text-light" data-dismiss="modal">Cerrar</button>
                           </div>
                         </div>
@@ -125,11 +117,8 @@ const TareasH = () => {
 
                             <h5 className="card-title text-light-blue negrita Parrafos">Lopez Gaviria Lorena Alejandra</h5>
                             <h5 className="card-title text-blue">Emprendimiento</h5>
-                            <p className="card-text Parrafo-top text-muted">Hola chicos, espero y se encuentren muy bien, les comparto el taller con la actividad para esta semana, si se les presenta alguna duda o inquietud pueden escribirme al interno, respetando los tiempos estipulados.</p>
-                            <p className="card-text">Muy bien desarrollados los diferentes puntos, se nota que prestó atención en clase. En el punto número dos le hice una pequeña corrección, para que esté más pendiente de esos detalles en el futuro.</p>
-                            <h5 className="card-title text-violet">Nota: 4,5</h5>
+        <textarea class="form-control" placeholder="Deja tu comentario..." id="exampleFormControlTextarea1" rows="3"></textarea>
                             <a href="#" class="btn btn-light-blue botones text-light">Taller N°3</a>
-                            <a href="#" class="btn btn-light-blue botones text-light">Mi Taller</a>
                             <div className="derecha">
                               <p className="card-text Parrafos Parrafo-top">Entregado el 15/04/2020</p>
                               <p className="card-text Parrafos">Publicado el 10/04/2020</p>
@@ -137,7 +126,6 @@ const TareasH = () => {
 
                           </div>
                           <div class="modal-footer">
-                            <a href="#" class="btn btn-blue botones text-light">Reclamar</a>
                             <button type="button" class="btn btn-light-blue botones text-light" data-dismiss="modal">Cerrar</button>
                           </div>
                         </div>
@@ -172,10 +160,9 @@ const TareasH = () => {
                             <h5 className="card-title text-light-blue negrita Parrafos">Lopez Gaviria Lorena Alejandra</h5>
                             <h5 className="card-title text-blue">Emprendimiento</h5>
                             <p className="card-text Parrafo-top text-dark">Hola chicos, espero y se encuentren muy bien, les comparto el taller con la actividad para esta semana, si se les presenta alguna duda o inquietud pueden escribirme al interno, respetando los tiempos estipulados.</p>
-                            <p className="card-text text-muted">Me extraña que no haya entregado el taller, ¿Qué pasó?</p>
+        <textarea class="form-control" placeholder="Deja tu comentario..." id="exampleFormControlTextarea1" rows="3"></textarea>
                             <h5 className="card-title text-blue">Nota: 1,0</h5>
-                            <div><a href="#" class="btn btn-light-blue botones text-light">Taller N°1</a></div>
-                            <a href="#" class="btn btn-light-blue botones text-light">Sube tu taller aquí</a>
+                            <div><a href="#" class="btn btn-light-blue botones text-light">Taller N°4</a></div>
                             <div className="derecha">
                               <p className="card-text Parrafos Parrafo-top text-violet negrita">Fecha de Entrega: 20/05/2020</p>
                               <p className="card-text Parrafos text-dark">Publicado: 10/05/2020</p>
@@ -217,10 +204,9 @@ const TareasH = () => {
                             <h5 className="card-title text-light-blue negrita Parrafos">Lopez Gaviria Lorena Alejandra</h5>
                             <h5 className="card-title text-blue">Emprendimiento</h5>
                             <p className="card-text Parrafo-top text-dark">Hola chicos, espero y se encuentren muy bien, les comparto el taller con la actividad para esta semana, si se les presenta alguna duda o inquietud pueden escribirme al interno, respetando los tiempos estipulados.</p>
-                            <p className="card-text text-muted">Me extraña que no haya entregado el taller, ¿Qué pasó?</p>
+                            <textarea class="form-control" placeholder="Deja tu comentario..." id="exampleFormControlTextarea1" rows="3"></textarea>
                             <h5 className="card-title text-blue">Nota: 1,0</h5>
-                            <div><a href="#" class="btn btn-light-blue botones text-light">Taller N°1</a></div>
-                            <a href="#" class="btn btn-light-blue botones text-light">Sube tu taller aquí</a>
+                            <div><a href="#" class="btn btn-light-blue botones text-light">Taller N°5</a></div>
                             <div className="derecha">
                               <p className="card-text Parrafos Parrafo-top text-violet negrita">Fecha de Entrega: 20/06/2020</p>
                               <p className="card-text Parrafos text-dark">Publicado: 10/06/2020</p>

@@ -44,7 +44,7 @@ const Menu = () => {
       </li>
     </ul>
     <span class="navbar-text">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="/join">
         <img src={chat} width="50" height="50" alt="" loading="lazy"/>
       </a>
     </span>

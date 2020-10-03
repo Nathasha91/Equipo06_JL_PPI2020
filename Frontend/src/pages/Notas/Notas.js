@@ -7,13 +7,11 @@ const Notas = () => {
   return (
       <div className="root rooot">
 
-        <div className="Titulo TituloM">
-          <h1 className="text-warning text-center"> Seguimiento Primer Periodo </h1>
+        <div className="TituloM">
+          <h1 className="text-warning text-center margin-bot-0"> Seguimiento Primer Periodo </h1>
         </div>
 
-        <a className="pdfdescarga col-12 text-danger text-center" target="_blank"
-          href="..."
-        >Descargar Notas Primer Periodo <img className="pdff" src={Pdf} /></a>
+        <a className="pdfdescarga btn btn-danger text-center col-md-3 col-sm-2" target="_blank" href="..." >Descargar Notas Primer Periodo</a>
 
         <div class="row">
           <div class="col-sm-6">
