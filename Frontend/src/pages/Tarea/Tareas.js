@@ -2,54 +2,53 @@ import React from 'react'
 
 const Tareas = () => {
     return (
-<div>
-    <ul class="list-group">
-        <li class="list-group-item-action d-flex justify-content-between align-items-center">
-        Física
-            <span class="badge badge-warning badge-pill">1</span>
-        </li>
-        <li class="list-group-item-action d-flex justify-content-between align-items-center">
-        Química
-        </li>
-        <li class="list-group-item-action d-flex justify-content-between align-items-center">
-        Biología
-            <span class="badge badge-warning badge-pill">1</span>
-        </li>
-            <li class="list-group-item-action d-flex justify-content-between align-items-center">
-            Inglés
-        </li>
-        <li class="list-group-item-action d-flex justify-content-between align-items-center">
-        Lectora en Inglés
-        </li>
-        <li class="list-group-item-action d-flex justify-content-between align-items-center">
-        Lengua Castellana
-        </li>
-        <li class="list-group-item-action d-flex justify-content-between align-items-center">
-        Emprendimiento
-            <span class="badge badge-warning badge-pill">1</span>
-        </li>
-        <li class="list-group-item-action d-flex justify-content-between align-items-center">
-        Tecnología
-        </li>
-        <li class="list-group-item-action d-flex justify-content-between align-items-center">
-        Educación Física
-        </li>
-        <li class="list-group-item-action d-flex justify-content-between align-items-center">
-        Tiempo Libre
-        </li>
-        <li class="list-group-item-action d-flex justify-content-between align-items-center">
-        Filosofía
-        </li>
-        <li class="list-group-item-action d-flex justify-content-between align-items-center">
-        Artística
-        </li>
-        <li class="list-group-item-action d-flex justify-content-between align-items-center">
-        Economía y política
-        </li>
-        <li class="list-group-item-action d-flex justify-content-between align-items-center">
-        Religión
-        </li>
-    </ul>
+<div className="m-5">
+    <div className= "container">
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action">
+                Física
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                Química
+            </a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-warning">
+                Biología
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                Inglés
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                Lectora en Inglés
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                Lengua Castellana
+            </a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-warning">
+                Emprendimiento
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                Tecnología
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                Educación Física
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                Tiempo Libre
+            </a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-warning">
+                Filosofía
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                Artística
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                Economía y política
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                Religión
+            </a>
+        </div>
+    </div>
 </div>
 )
 }
