@@ -7,7 +7,7 @@ export function matriculas() {
 }
 
 export function tareas() {
-    return '/tareas'
+    return '/tarea'
 }
 
 export function tareasHechas() {
